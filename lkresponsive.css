@@ -1,0 +1,238 @@
+/* Untuk Tablet */
+@media all and (max-width: 1225px) {
+  .title1 h6, .title2 h6 {
+    font-size: 1.2vw;
+  }
+
+  .footer p {
+    margin-left: 3.5vw;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .header {
+    height: 8rem;
+    padding-top: 0.8rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+
+  .header-logo img {
+    height: 6.3vw;
+  }
+
+  .header-input input{
+    font-size: 1.2vw;
+    margin-top: 1.2vw;
+    padding-left: 1vw;
+  }
+
+  .menu-list .btn{
+    font-size: 1.4vw;
+    margin-left: -1.4vw;
+  }
+
+  .title1 h6{
+    font-size: 1.3vw;
+  }
+
+  td, th h6, tr {
+    font-size: 1.2vw;
+  }
+
+  .table h6 {
+    border-top-right-radius: 0.6vw;
+    border-bottom-right-radius: 0.6vw;
+  }
+
+  tbody p {
+    border-top-right-radius: 0.6vw;
+    border-bottom-right-radius: 0.6vw;
+  }
+
+form p {
+  font-size: 1.2vw;
+}
+
+tbody .btn {
+  font-size: 1.2vw;
+}
+
+.tabel .btn-group .btn {
+  padding-top: 0vw;
+  padding-bottom: 0vw;
+  font-size: 1.5vw;
+}
+
+.footer img{
+  height: 6.3vw;
+}
+
+.footer p{
+  margin-left: 4.7vw;
+}
+
+}
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-input input{
+    margin-top: 2vw;
+  }
+
+  .menu-list .btn{
+    margin-left: -2.5vw;
+  }
+
+  .table-title {
+    margin-bottom: -2.5vw;
+  }
+
+  .title1 h6 {
+    margin-left: -2vw;
+    margin-top: -0.2vw;
+    font-size: 1.4vw;
+  }
+
+  form p {
+    font-size: 1.5vw;
+    margin-top: -0.8vw;
+    margin-bottom: 0.5vw;
+  }
+
+  thead h6 {
+    font-size: 1.4vw;
+  }
+
+  .ket h5 {
+    font-weight: bold;
+    font-size: 1.7vw;
+    margin-bottom: -0.1vw;
+  }
+
+  .ket h6 {
+    font-size: 1.4vw;
+  }
+
+  tbody .btn {
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    font-size: 1.2vw;
+  }
+
+    .tabel .btn-group .btn {
+      padding-top: 0vw;
+      padding-bottom: 0vw;
+      font-size: 1.5vw;
+    }
+  }
+
+  @media all and (max-width: 320px) {
+    .header {
+      height: 5.5rem;
+      padding-top: 0.5rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+
+    .menu-media a {
+      margin-left: -5vw;
+    }
+
+    .menu-media img{
+      height: 3.5vw;
+      margin-top: -2vw;
+      margin-right: -1vw;
+    }
+
+    .header-input input{
+      margin-right: 5vw;
+      margin-top: 4.5vw;
+    }
+
+    .menu-list .btn{
+      font-weight: bold;
+      letter-spacing: 0.15vw;
+    }
+
+    .menu-list .dropdown-item {
+      font-size: 2.5vw;
+      margin-left: 4vw;
+      padding: 0vw 0vw
+    }
+
+    .title1 h6{
+      margin-left: -3vw;
+      margin-top: -1.2vw;
+      margin-bottom: -1.5;
+      font-size: 1.4vw;
+    }
+
+    form p {
+      font-size: 1.6vw;
+      margin-top: -0.5vw;
+      margin-bottom: 0vw;
+    }
+
+    form select {
+      color: rgb(31,135,83);
+    }
+
+    form option {
+      font-size: 3vw;
+    }
+
+    .tabel {
+      margin-top: -10vw;
+    }
+
+    .table h6 {
+      padding-top: 2vw;
+      padding-bottom: 2vw;
+      padding-left: 2vw;
+      padding-right: 2vw;
+      margin-top: 1vw;
+      margin-bottom: 1vw;
+    }
+
+      tbody p {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        padding-left: 1.5vw;
+        padding-right: 1.5vw;
+        font-size: 1.8vw;
+      }
+
+      .ket h5 {
+        font-weight: bold;
+        font-size: 1.8vw;
+        margin-bottom: -1vw;
+      }
+
+      .ket h6 {
+        font-size: 1.5vw;
+        margin-left: -2vw;
+      }
+
+      tbody .btn {
+        padding-top: 0vw;
+        padding-bottom: 0vw;
+        padding-left: 0vw;
+        padding-right: 0vw;
+        font-size: 1.2vw;
+      }
+
+      .tabel .btn-group .btn {
+        padding-top: 0vw;
+        padding-bottom: 0vw;
+        font-size: 1.5vw;
+      }
+
+      .footer {
+        padding-bottom: 0.1rem;
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+}
