@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="lk.css" type="text/css" />
+    <link rel="stylesheet" href="lkresponsive.css" type="text/css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>MRP</title>
+  </head>
+
+  <body>
+  <div class="bodyy">
+
+    <div class="header">
+      <div class="header-logo float-left">
+        <img src="LOGO POPAY.png"  alt="" height="60px"/>
+      </div>
+
+      <div class="menu-media d-flex justify-content-end">
+        <div class="header-input">
+          <input type="text" name="box" placeholder="Search">
+        </div>
+        <a href="#" class="btn intagram"><img src="IG.png" alt="" height="25vw"/></a>
+        <a href="#" class="btn facebook"><img src="fbcrop.png" alt="" height="23vw"/></a>
+        <a href="#" class="btn youtube"><img src="YOUTUBE.png" alt="" height="20vw"/></a>
+      </div>
+
+      <div class="menu-list d-flex justify-content-end">
+        <div class="btn-group">
+          <button type="button" class="btn btn-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+            HOME MASTER
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Data Karyawan</a>
+            <a class="dropdown-item" href="#">Data Customer</a>
+            <a class="dropdown-item" href="#">Data Vendor</a>
+            <a class="dropdown-item" href="#">Jenis Transaksi</a>
+            <a class="dropdown-item" href="#">Akun Kas</a>
+            <a class="dropdown-item" href="#">Akun Bank</a>
+            <a class="dropdown-item" href="#">Pengolahan Bahan</a>
+          </div>
+        </div>
+
+        <div class="btn-group">
+          <button type="button" class="btn btn-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+            PINJAMAN STAFF
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Request Pinjam</a>
+            <a class="dropdown-item" href="#">Pinjaman Staff</a>
+          </div>
+        </div>
+
+        <div class="btn-group">
+          <button type="button" class="btn btn-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+            PRODUKSI
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Stok Bahan Baku</a>
+            <a class="dropdown-item" href="#">Stok Produksi</a>
+            <a class="dropdown-item" href="#">Invoice Penjualan</a>
+            <a class="dropdown-item" href="#">Invoice Pembelian</a>
+            <a class="dropdown-item" href="#">Log Pengolahan</a>
+            <a class="dropdown-item" href="#">Log Produksi</a>
+            <a class="dropdown-item" href="#">Transaksi Balok</a>
+            <a class="dropdown-item" href="#">Penyesuaian Stok</a>
+          </div>
+        </div>
+
+        <div class="btn-group">
+          <button type="button" class="btn btn-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+            CANVASSING SALES
+          </button>
+        </div>
+
+        <div class="btn-group">
+          <button type="button" class="btn btn-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+            FINANCE
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Transaksi Akun</a>
+            <a class="dropdown-item" href="#">Panggajian</a>
+          </div>
+        </div>
+
+        <div class="btn-group">
+          <button type="button" class="btn btn-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+            HUTANG & PIUTANG
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Module Hutang</a>
+            <a class="dropdown-item" href="#">Module Piutang</a>
+          </div>
+          </div>
+
+        <div class="btn-group">
+          <button type="button" class="btn btn-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+            LAPORAN DATA
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Cetak Gaji</a>
+            <a class="dropdown-item" href="#">Laporan Keuangan</a>
+            <a class="dropdown-item" href="#">Lap. Log Produk</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="table-title d-flex align-items-start flex-column bd-highlight">
+        <div class="title1 mb-5 p-2 bd-highlight" style="width: 12vw; height: 6vw; color: white; background-color: white;">
+          <h6 style="width: 25vw; background-color: rgb(31, 135, 63);">GRID DATA - CETAK GAJI</h6>
+        </div>
+      </div>
+
+    <div class="tabel">
+      <div class="table-main">
+        <table class="table" style="color: rgb(31, 135, 63)">
+          <thead>
+            <tr>
+              <th style="color: rgb(31, 135, 63)" scope="row" colspan="7">
+                  <form action="proses.php" method="get">
+                    <p>Tahun
+                  	  <select class="ml-2 mr-2 rounded-pill" style="border-color: rgb(31, 135, 63);">
+                      <option value='-' selected='selected'>-</option>
+                      <option value='1'>2020</option>
+                  		<option value='2'>2019</option>
+                  		<option value='3'>2018</option>
+                  		<option value='4'>2017</option>
+                  	  </select>
+                      entries
+              	    </p>
+                  </form>
+              </th>
+            </tr>
+          </thead>
+          <thead class=" table-borderless">
+            <tr style="background-color:rgb(31, 135, 63)">
+              <th class="table-header1" scope="col" style="width: 7vw;"><h6>NO</h6></th>
+              <th class="table-header2" scope="col"><h6>LAPORAN KEUANGAN</h6></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th style="background-color:rgb(234, 234, 235)" scope="row"><p class="rounded-circle">1</p></th>
+              <td style="background-color:rgb(234, 234, 235); color:black;">
+                <div class="ket float-left">
+                  <h5>Januari 2020<h5>
+                  <h6>Cetak Bulan Januari 2020</h6>
+              </div>
+              <div class="btn-group1 float-right mt-2">
+                <button type="button" class="btn" style="width: 7vw; height: 2.5vw; color: white; background-color:rgb(31, 135, 63);">CETAK</button>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row" style="background-color:rgb(111, 168, 152)"><p class="rounded-circle">2</p></th>
+              <td style="background-color:rgb(111, 168, 152); color:black;">
+                <div class="ket float-left">
+                  <h5>Februari 2020<h5>
+                  <h6>Cetak Bulan Februari 2020</h6>
+              </div>
+              <div class="btn-group1 float-right mt-2">
+                <button type="button" class="btn" style="width: 7vw; height: 2.5vw; color: white; background-color:rgb(31, 135, 63);">CETAK</button>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row" style="background-color:rgb(234, 234, 235)"><p class="rounded-circle">3</p></th>
+              <td style="background-color:rgb(234, 234, 235); color:black;">
+                <div class="ket float-left">
+                  <h5>Maret 2020<h5>
+                  <h6>Cetak Bulan Maret 2020</h6>
+              </div>
+              <div class="btn-group1 float-right mt-2">
+                <button type="button" class="btn" style="width: 7vw; height: 2.5vw; color: white; background-color:rgb(31, 135, 63);">CETAK</button>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row" style="background-color:rgb(111, 168, 152)"><p class="rounded-circle">4</p></th>
+              <td style="background-color:rgb(111, 168, 152); color:black;">
+                <div class="ket float-left">
+                  <h5>April 2020<h5>
+                  <h6>Cetak Bulan April 2020</h6>
+              </div>
+              <div class="btn-group1 float-right mt-2">
+                <button type="button" class="btn" style="width: 7vw; height: 2.5vw; color: white; background-color:rgb(31, 135, 63);">CETAK</button>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <th style="background-color:rgb(234, 234, 235)" scope="row"><p class="rounded-circle">5</p></th>
+              <td style="background-color:rgb(234, 234, 235); color:black;">
+                <div class="ket float-left">
+                  <h5>Mei 2020<h5>
+                  <h6>Cetak Bulan Mei 2020</h6>
+                </div>
+                <div class="btn-group1 float-right mt-2">
+                  <button type="button" class="btn" style="width: 7vw; height: 2.5vw; color: white; background-color:rgb(31, 135, 63);">CETAK</button>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row" style="background-color:rgb(111, 168, 152)"><p class="rounded-circle">6</p></th>
+              <td style="background-color:rgb(111, 168, 152); color:black;">
+                <div class="ket float-left">
+                 <h5>Juni 2020<h5>
+                 <h6>Cetak Bulan Juni 2020</h6>
+              </div>
+              <div class="btn-group1 float-right mt-2">
+                <button type="button" class="btn" style="width: 7vw; height: 2.5vw; color: white; background-color:rgb(31, 135, 63);">CETAK</button>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <th style="background-color:rgb(234, 234, 235)" scope="row"><p class="rounded-circle">7</p></th>
+              <td style="background-color:rgb(234, 234, 235)"></td>
+            </tr>
+            <tr>
+              <th scope="row" style="background-color:rgb(111, 168, 152)"><p class="rounded-circle">8</p></th>
+              <td style="background-color:rgb(111, 168, 152)"></td>
+            </tr>
+            <tr>
+              <th style="background-color:rgb(234, 234, 235)" scope="row"><p class="rounded-circle">9</p></th>
+              <td style="background-color:rgb(234, 234, 235)"></td>
+            </tr>
+            <tr>
+              <th scope="row" style="background-color:rgb(111, 168, 152)"><p class="rounded-circle">10</p></th>
+              <td style="background-color:rgb(111, 168, 152)"></td>
+            </tr>
+            <tr>
+              <th scope="row" colspan="2" style="color: black; background-color:white" class="font-weight-normal">
+                Showing 1 to 10 of 16 entries
+                <div class="button-number float-right" style="background-color:white">
+                  <div class="btn-group dropleft">
+                    <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 1vw; height: 2.5vw; color: white; background-color:rgb(31, 135, 63);">
+                      <span class="sr-only">Toggle Dropleft</span>
+                    </button>
+                  </div>
+
+                  <div class="btn-group dropright">
+                    <button type="button" class="btn" style="width: 3vw; height: 2.5vw; color: white; background-color:rgb(31, 135, 63);">1</button>
+                  </div>
+
+                  <div class="btn-group dropright">
+                    <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 1vw; height: 2.5vw; color: white; background-color:rgb(31, 135, 63);">
+                      <span class="sr-only">Toggle Dropright</span>
+                    </button>
+                  </div>
+                </div>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+
+    <div class="footer">
+        <img src="LOGO POPAY.png"  alt="" height="60px"/>
+        <p>&copy 2020</p>
+    </div>
+
+  </div>
+  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</html>
